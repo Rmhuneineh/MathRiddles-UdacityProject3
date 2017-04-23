@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scroll_view">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.android.mathriddles.MainActivity">
+
+        <EditText
+            android:id="@+id/name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/Task1"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/first" />
+
+        <EditText
+            android:id="@+id/first_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/second" />
+
+        <EditText
+            android:id="@+id/second_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/third" />
+
+        <EditText
+            android:id="@+id/third_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/fourth" />
+
+        <EditText
+            android:id="@+id/fourth_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/fifth" />
+
+        <EditText
+            android:id="@+id/fifth_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Answer"
+            android:inputType="number" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/Task2"
+            android:textStyle="italic" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/sixth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/sixth_monday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="sixthMon"
+                android:text="Monday" />
+
+            <CheckBox
+                android:id="@+id/sixth_saturday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="sixthSat"
+                android:text="Saturday" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/sixth_wednesday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="sixthWed"
+                android:text="Wednesday" />
+
+            <CheckBox
+                android:id="@+id/sixth_friday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="sixthFri"
+                android:text="Friday" />
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/seventh" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/seventh_monday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="seventhMon"
+                android:text="Monday" />
+
+            <CheckBox
+                android:id="@+id/seventh_tuesday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="seventhTues"
+                android:text="Tuesday" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/seventh_Thursday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="seventhThur"
+                android:text="Thursday" />
+
+            <CheckBox
+                android:id="@+id/seventh_sunday"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="seventhSun"
+                android:text="Sunday" />
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/eighth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/eighth_29"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="eighth29"
+                android:text="29 km" />
+
+            <CheckBox
+                android:id="@+id/eighth_20"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="eighth20"
+                android:text="20 km" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/eighth_25"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="eighth25"
+                android:text="25 km" />
+
+            <CheckBox
+                android:id="@+id/eighth_24"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="eighth24"
+                android:text="24 km" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/ninth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/ninth_58"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="ninth58"
+                android:text="58" />
+
+            <CheckBox
+                android:id="@+id/ninth_100"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="ninth100"
+                android:text="100" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/ninth_54"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="ninth54"
+                android:text="54" />
+
+            <CheckBox
+                android:id="@+id/ninth_46"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="ninth46"
+                android:text="46" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/tenth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/tenth_9"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="tenth9"
+                android:text="9/28" />
+
+            <CheckBox
+                android:id="@+id/tenth_2"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="tenth2"
+                android:text="2/3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/tenth_3"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="tenth3"
+                android:text="3/28" />
+
+            <CheckBox
+                android:id="@+id/tenth_314"
+                style="@style/HeaderTextStyle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:onClick="tenth314"
+                android:text="3/14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="54dp"
+                android:layout_marginTop="16dp"
+                android:onClick="submitAnswers"
+                android:text="submit" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="54dp"
+                android:layout_marginTop="16dp"
+                android:onClick="resetAll"
+                android:text="reset" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
