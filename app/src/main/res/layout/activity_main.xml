@@ -220,52 +220,60 @@
             android:layout_height="wrap_content"
             android:text="@string/eighth" />
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/eighth_29"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="eighth29"
-                android:text="29 km" />
+                android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/eighth_20"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+                <RadioButton
+                    android:id="@+id/eighth_29"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="eighth29"
+                    android:text="29 km" />
+
+                <RadioButton
+                    android:id="@+id/eighth_20"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="eighth20"
+                    android:text="20 km" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="eighth20"
-                android:text="20 km" />
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/eighth_25"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="eighth25"
+                    android:text="25 km" />
+
+                <RadioButton
+                    android:id="@+id/eighth_24"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="eighth24"
+                    android:text="24 km" />
+
+            </LinearLayout>
 
 
-        </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/eighth_25"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="eighth25"
-                android:text="25 km" />
-
-            <CheckBox
-                android:id="@+id/eighth_24"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="eighth24"
-                android:text="24 km" />
-
-        </LinearLayout>
+        </RadioGroup>
 
         <TextView
             style="@style/HeaderTextStyle"

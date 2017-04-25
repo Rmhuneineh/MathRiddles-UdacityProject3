@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity {
                 score++;
             }
 
-            checkBox = (CheckBox) findViewById(R.id.eighth_24);
-            if (checkBox.isChecked()) {
+            radioButton = (RadioButton) findViewById(R.id.eighth_24);
+            if (radioButton.isChecked()) {
                 score++;
             }
 
