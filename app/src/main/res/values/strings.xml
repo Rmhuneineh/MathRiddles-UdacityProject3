@@ -15,4 +15,27 @@
     of Amy\'s brother when she becomes 50 years old?</string>
     <string name="tenth">10. A shelf contains 8 books: 4 Roman, 3 Series, 1 Scientific. We take simultaneously 3 books.
     What\'s the probability of taking 2 Roman books and 1 Series book?</string>
+    <string name="name_hint">Name</string>
+    <string name="answer_hint">Answer</string>
+    <string name="monday">Monday</string>
+    <string name="saturday">Saturday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="friday">Friday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="sunday">Sunday</string>
+    <string name="twenty9km">29 km</string>
+    <string name="twenty">20 km</string>
+    <string name="twenty5">25 km</string>
+    <string name="twenty4">24 km</string>
+    <string name="fifty8">58</string>
+    <string name="hundred">100</string>
+    <string name="fifty4">54</string>
+    <string name="forty6">46</string>
+    <string name="nineOverTwentyEight">9/28</string>
+    <string name="twoOverThree">2/3</string>
+    <string name="threeOverTwentyEight">3/28</string>
+    <string name="threeOverFourteen">3/14</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
 </resources>
