@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:id="@+id/scroll_view">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/activity_main"
@@ -102,10 +102,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/sixth_monday"
@@ -120,15 +116,6 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:text="Saturday" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <RadioButton
                     android:id="@+id/sixth_wednesday"
                     style="@style/HeaderTextStyle"
@@ -144,9 +131,6 @@
                     android:text="Friday" />
 
 
-            </LinearLayout>
-
-
 
         </RadioGroup>
 
@@ -158,11 +142,6 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/seventh_monday"
@@ -177,14 +156,6 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:text="Tuesday" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/seventh_Thursday"
@@ -201,9 +172,6 @@
                     android:text="Sunday" />
 
 
-            </LinearLayout>
-
-
         </RadioGroup>
 
 
@@ -215,11 +183,6 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/eighth_29"
@@ -235,14 +198,6 @@
                     android:layout_height="wrap_content"
                     android:text="20 km" />
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <RadioButton
                     android:id="@+id/eighth_25"
                     style="@style/HeaderTextStyle"
@@ -257,8 +212,6 @@
                     android:layout_height="wrap_content"
                     android:text="24 km" />
 
-            </LinearLayout>
-
 
 
         </RadioGroup>
@@ -271,11 +224,6 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/ninth_58"
@@ -291,14 +239,6 @@
                     android:layout_height="wrap_content"
                     android:text="100" />
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <RadioButton
                     android:id="@+id/ninth_54"
                     style="@style/HeaderTextStyle"
@@ -313,8 +253,6 @@
                     android:layout_height="wrap_content"
                     android:text="46" />
 
-            </LinearLayout>
-
         </RadioGroup>
 
 
@@ -326,11 +264,6 @@
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/tenth_9"
@@ -346,14 +279,6 @@
                     android:layout_height="wrap_content"
                     android:text="2/3" />
 
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
                 <RadioButton
                     android:id="@+id/tenth_3"
                     style="@style/HeaderTextStyle"
@@ -367,8 +292,6 @@
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:text="3/14" />
-
-            </LinearLayout>
 
 
         </RadioGroup>
