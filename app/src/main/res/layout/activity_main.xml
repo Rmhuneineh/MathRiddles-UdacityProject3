@@ -20,13 +20,13 @@
             android:id="@+id/name_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name"
+            android:hint="@string/name_hint"
             android:inputType="textCapWords" />
 
         <TextView
             style="@style/HeaderTextStyle"
-            android:layout_marginBottom="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:text="@string/Task1"
             android:textStyle="italic" />
 
@@ -38,7 +38,7 @@
             android:id="@+id/first_answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Answer"
+            android:hint="@string/answer_hint"
             android:inputType="number" />
 
         <TextView
@@ -49,7 +49,7 @@
             android:id="@+id/second_answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Answer"
+            android:hint="@string/answer_hint"
             android:inputType="number" />
 
         <TextView
@@ -60,7 +60,7 @@
             android:id="@+id/third_answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Answer"
+            android:hint="@string/answer_hint"
             android:inputType="number" />
 
         <TextView
@@ -71,7 +71,7 @@
             android:id="@+id/fourth_answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Answer"
+            android:hint="@string/answer_hint"
             android:inputType="number" />
 
         <TextView
@@ -83,7 +83,7 @@
             android:id="@+id/fifth_answer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Answer"
+            android:hint="@string/answer_hint"
             android:inputType="number" />
 
         <TextView
@@ -106,29 +106,29 @@
                 <RadioButton
                     android:id="@+id/sixth_monday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Monday" />
+                    android:text="@string/monday" />
 
                 <RadioButton
                     android:id="@+id/sixth_saturday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Saturday" />
+                    android:text="@string/saturday" />
                 <RadioButton
                     android:id="@+id/sixth_wednesday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Wednesday" />
+                    android:text="@string/wednesday" />
 
                 <RadioButton
                     android:id="@+id/sixth_friday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Friday" />
+                    android:text="@string/friday" />
 
 
 
@@ -146,30 +146,30 @@
                 <RadioButton
                     android:id="@+id/seventh_monday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Monday" />
+                    android:text="@string/monday" />
 
                 <RadioButton
                     android:id="@+id/seventh_tuesday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Tuesday" />
+                    android:text="@string/tuesday" />
 
                 <RadioButton
                     android:id="@+id/seventh_Thursday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Thursday" />
+                    android:text="@string/thursday" />
 
                 <RadioButton
                     android:id="@+id/seventh_sunday"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="Sunday" />
+                    android:text="@string/sunday" />
 
 
         </RadioGroup>
@@ -187,30 +187,30 @@
                 <RadioButton
                     android:id="@+id/eighth_29"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="29 km" />
+                    android:text="@string/twenty9km" />
 
                 <RadioButton
                     android:id="@+id/eighth_20"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="20 km" />
+                    android:text="@string/twenty" />
 
                 <RadioButton
                     android:id="@+id/eighth_25"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="25 km" />
+                    android:text="@string/twenty5" />
 
                 <RadioButton
                     android:id="@+id/eighth_24"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="24 km" />
+                    android:text="@string/twenty4" />
 
 
 
@@ -228,30 +228,30 @@
                 <RadioButton
                     android:id="@+id/ninth_58"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="58" />
+                    android:text="@string/fifty8" />
 
                 <RadioButton
                     android:id="@+id/ninth_100"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="100" />
+                    android:text="@string/hundred" />
 
                 <RadioButton
                     android:id="@+id/ninth_54"
                     style="@style/HeaderTextStyle"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="54" />
+                    android:text="@string/fifty4" />
 
                 <RadioButton
                     android:id="@+id/ninth_46"
                     style="@style/HeaderTextStyle"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
-                    android:text="46" />
+                    android:text="@string/forty6" />
 
         </RadioGroup>
 
@@ -268,30 +268,30 @@
                 <RadioButton
                     android:id="@+id/tenth_9"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="9/28" />
+                    android:text="@string/nineOverTwentyEight" />
 
                 <RadioButton
                     android:id="@+id/tenth_2"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="2/3" />
+                    android:text="@string/twoOverThree" />
 
                 <RadioButton
                     android:id="@+id/tenth_3"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="3/28" />
+                    android:text="@string/threeOverTwentyEight" />
 
                 <RadioButton
                     android:id="@+id/tenth_314"
                     style="@style/HeaderTextStyle"
-                    android:layout_width="150dp"
+                    android:layout_width="@dimen/radio_button_width"
                     android:layout_height="wrap_content"
-                    android:text="3/14" />
+                    android:text="@string/threeOverFourteen" />
 
 
         </RadioGroup>
@@ -309,7 +309,7 @@
                 android:layout_marginRight="54dp"
                 android:layout_marginTop="16dp"
                 android:onClick="submitAnswers"
-                android:text="submit" />
+                android:text="@string/submit" />
 
             <Button
                 android:id="@+id/reset_button"
@@ -318,7 +318,7 @@
                 android:layout_marginLeft="54dp"
                 android:layout_marginTop="16dp"
                 android:onClick="resetAll"
-                android:text="reset" />
+                android:text="@string/reset" />
 
         </LinearLayout>
 
