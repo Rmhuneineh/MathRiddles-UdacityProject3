@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/scroll_view"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -295,6 +295,161 @@
 
 
         </RadioGroup>
+
+        <TextView
+            android:text="@string/Task3"
+            style="@style/HeaderTextStyle"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:textStyle="italic"/>
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/eleventh"/>
+
+        <CheckBox
+            android:id="@+id/nineThree"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/nineThree"
+            />
+
+        <CheckBox
+            android:id="@+id/threeOne"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/threeOne"
+            />
+
+        <CheckBox
+            android:id="@+id/sixOne"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sixOne"
+            />
+
+        <CheckBox
+            android:id="@+id/sixTwo"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sixTwo"
+            />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/twelfth"/>
+
+        <CheckBox
+            android:id="@+id/fifteenTen"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/fifteenTen"
+            />
+
+        <CheckBox
+            android:id="@+id/sixteenTwelve"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sixteenTwelve"
+            />
+
+        <CheckBox
+            android:id="@+id/seventeenEleven"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/seventeenEleven"
+            />
+
+        <CheckBox
+            android:id="@+id/fourteenFourteen"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/fourteenFourteen"
+            />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/thirteenth"/>
+
+        <CheckBox
+            android:id="@+id/sevenSix"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sevenSix"
+            />
+
+        <CheckBox
+            android:id="@+id/sevenFive"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sevenFive"
+            />
+
+        <CheckBox
+            android:id="@+id/oneTwo"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/oneTwo"
+            />
+
+        <CheckBox
+            android:id="@+id/oneThree"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/oneThree"
+            />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/fourteenth"/>
+
+        <CheckBox
+            android:id="@+id/elevenThirty"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/elevenThirty"
+            />
+
+        <CheckBox
+            android:id="@+id/thirtyNinety"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/thirtyNinety"
+            />
+
+        <CheckBox
+            android:id="@+id/tenTwenty"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/tenTwenty"
+            />
+
+        <CheckBox
+            android:id="@+id/thirtyEighty"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/thirtyEighty"
+            />
 
 
         <LinearLayout
