@@ -2,6 +2,7 @@
     <string name="app_name">Math Riddles</string>
     <string name="Task1">Answer the following questions with integer numbers!</string>
     <string name="Task2">Check the correct answer!</string>
+    <string name="Task3">Check the correct ANSWERS only!</string>
     <string name="first">1. What digit is most frequent between 0 and 1,000?</string>
     <string name="second">2. What digit is least frequent between 0 and 1,000?</string>
     <string name="third">3. In a certain country 1/2 of 5 = 3. If the same proportion holds, what is the value of 1/3 of 10 ?</string>
@@ -9,12 +10,14 @@
     <string name="fifth">5.\n5+3+2 = 151022\n9+2+4 = 183652\n8+6+3 = 482466\n5+4+5 = 202541\n7+2+5 = ?</string>
     <string name="sixth">6. If today was Thursday, what day would it be after 1,000 days? </string>
     <string name="seventh">7. \"If yesterday were tomorrow, today would be Saturday.\" Which day did I say this?</string>
-    <string name="eighth">8. \'A\' has a speed of 18km/h and \'B\' has a speed of 16km/h. They raced on a track and \'A\'
-    finished the race 10 minutes before \'B\'. What is the length of the track?</string>
-    <string name="ninth">9. When Amy was 4 years old her brother was double her age. What\'s the age
-    of Amy\'s brother when she becomes 50 years old?</string>
-    <string name="tenth">10. A shelf contains 8 books: 4 Roman, 3 Series, 1 Scientific. We take simultaneously 3 books.
-    What\'s the probability of taking 2 Roman books and 1 Series book?</string>
+    <string name="eighth">8. \'A\' has a speed of 18km/h and \'B\' has a speed of 16km/h. They raced on a track and \'A\' finished the race 10 minutes before \'B\'. What is the length of the track?</string>
+    <string name="ninth">9. When Amy was 4 years old her brother was double her age. What\'s the age of Amy\'s brother when she becomes 50 years old?</string>
+    <string name="tenth">10. A shelf contains 8 books: 4 Roman, 3 Series, 1 Scientific. We take simultaneously 3 books. What\'s the probability of taking 2 Roman books and 1 Series book?</string>
+    <string name="eleventh">11. My thousand digit is 3 times my hundreds digit. The sum of my tens digit and ones digit is one less than my thousands digit. What 4-digit number am I?</string>
+    <string name="twelfth">12. On a hiking trip, Bob and his two friends hiked 15km the first day, 10km the second, and 7km the third. If they walked a total of 60km over the 5-days trip and did not walk more than 18km on any one day, how many kms could they have walked each of the last two days?</string>
+    <string name="thirteenth">13. Knowing that you can use each of the digits 0 through 7 ONCE to subtract a 4-digit number from a 3-digit number so that the difference is 8 in the hundreds place, 8 in the tens place, and 9 in the ones place, which are the correct answers?</string>
+    <string name="fourteenth">"14. \"Welcome to the World of Orient! You see before you diamonds, rubies, and emeralds. 2 diamonds are worth as much as 3 rubies. 5 rubies are worth as much as 9 emeralds. Make a pile of diamonds and then make a pile of emeralds, if you can do this so that the 2 piles have exactly the same worth, you may keep them all!\"</string>
+    <string name="fifteenth">15. The King asked you to design buildings to his kingdom such that youdo not exceed a total of 10 floors; on one condition, and that is no building has the same amount of floors as the other one. What are the correct possibilities?</string>
     <string name="name_hint">Name</string>
     <string name="answer_hint">Answer</string>
     <string name="monday">Monday</string>
@@ -36,6 +39,22 @@
     <string name="twoOverThree">2/3</string>
     <string name="threeOverTwentyEight">3/28</string>
     <string name="threeOverFourteen">3/14</string>
+    <string name="nineThree">9353</string>
+    <string name="threeOne">3134</string>
+    <string name="sixTwo">6241</string>
+    <string name="sixOne">6198</string>
+    <string name="fifteenTen">15, 10</string>
+    <string name="sixteenTwelve">16, 12</string>
+    <string name="seventeenEleven">17, 11</string>
+    <string name="fourteenFourteen">14, 14</string>
+    <string name="sevenSix">7631, 641</string>
+    <string name="sevenFive">7531, 642</string>
+    <string name="oneTwo">1246, 357</string>
+    <string name="oneThree">1346, 358</string>
+    <string name="elevenThirty">11, 30</string>
+    <string name="thirtyNinety">33, 90</string>
+    <string name="tenTwenty">10, 27</string>
+    <string name="thirtyEighty">30, 81</string>
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
 </resources>
