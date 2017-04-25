@@ -339,52 +339,60 @@
             android:layout_height="wrap_content"
             android:text="@string/tenth" />
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/tenth_9"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="tenth9"
-                android:text="9/28" />
+                android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/tenth_2"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+                <RadioButton
+                    android:id="@+id/tenth_9"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="tenth9"
+                    android:text="9/28" />
+
+                <RadioButton
+                    android:id="@+id/tenth_2"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="tenth2"
+                    android:text="2/3" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="tenth2"
-                android:text="2/3" />
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/tenth_3"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="tenth3"
+                    android:text="3/28" />
+
+                <RadioButton
+                    android:id="@+id/tenth_314"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="tenth314"
+                    android:text="3/14" />
+
+            </LinearLayout>
 
 
-        </LinearLayout>
+        </RadioGroup>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/tenth_3"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="tenth3"
-                android:text="3/28" />
-
-            <CheckBox
-                android:id="@+id/tenth_314"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="tenth314"
-                android:text="3/14" />
-
-        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
