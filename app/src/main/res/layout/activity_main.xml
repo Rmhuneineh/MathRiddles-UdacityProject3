@@ -309,7 +309,7 @@
             android:text="@string/eleventh"/>
 
         <CheckBox
-            android:id="@+id/nineThree"
+            android:id="@+id/eleventh_nineThree"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -317,7 +317,7 @@
             />
 
         <CheckBox
-            android:id="@+id/threeOne"
+            android:id="@+id/eleventh_threeOne"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -325,7 +325,7 @@
             />
 
         <CheckBox
-            android:id="@+id/sixOne"
+            android:id="@+id/eleventh_sixOne"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -333,7 +333,7 @@
             />
 
         <CheckBox
-            android:id="@+id/sixTwo"
+            android:id="@+id/eleventh_sixTwo"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -346,7 +346,7 @@
             android:text="@string/twelfth"/>
 
         <CheckBox
-            android:id="@+id/fifteenTen"
+            android:id="@+id/twelfth_fifteenTen"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -354,7 +354,7 @@
             />
 
         <CheckBox
-            android:id="@+id/sixteenTwelve"
+            android:id="@+id/twelfth_sixteenTwelve"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -362,7 +362,7 @@
             />
 
         <CheckBox
-            android:id="@+id/seventeenEleven"
+            android:id="@+id/twelfth_seventeenEleven"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -370,7 +370,7 @@
             />
 
         <CheckBox
-            android:id="@+id/fourteenFourteen"
+            android:id="@+id/twelfth_fourteenFourteen"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -383,7 +383,7 @@
             android:text="@string/thirteenth"/>
 
         <CheckBox
-            android:id="@+id/sevenSix"
+            android:id="@+id/thirteenth_sevenSix"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -391,7 +391,7 @@
             />
 
         <CheckBox
-            android:id="@+id/sevenFive"
+            android:id="@+id/thirteenth_sevenFive"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -399,7 +399,7 @@
             />
 
         <CheckBox
-            android:id="@+id/oneTwo"
+            android:id="@+id/thirteenth_oneTwo"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -407,7 +407,7 @@
             />
 
         <CheckBox
-            android:id="@+id/oneThree"
+            android:id="@+id/thirteenth_oneThree"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -420,7 +420,7 @@
             android:text="@string/fourteenth"/>
 
         <CheckBox
-            android:id="@+id/elevenThirty"
+            android:id="@+id/fourteenth_elevenThirty"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -428,7 +428,7 @@
             />
 
         <CheckBox
-            android:id="@+id/thirtyNinety"
+            android:id="@+id/fourteenth_thirtyNinety"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -436,7 +436,7 @@
             />
 
         <CheckBox
-            android:id="@+id/tenTwenty"
+            android:id="@+id/fourteenth_tenTwenty"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
@@ -444,11 +444,48 @@
             />
 
         <CheckBox
-            android:id="@+id/thirtyEighty"
+            android:id="@+id/fourteenth_thirtyEighty"
             style="@style/HeaderTextStyle"
             android:layout_width="@dimen/radio_button_width"
             android:layout_height="wrap_content"
             android:text="@string/thirtyEighty"
+            />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_height="wrap_content"
+            android:text="@string/fifteenth"/>
+
+        <CheckBox
+            android:id="@+id/fifteenth_sevenTwoOne"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sevenTwoOne"
+            />
+
+        <CheckBox
+            android:id="@+id/fifteenth_sixThreeTwo"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/sixThreeTwo"
+            />
+
+        <CheckBox
+            android:id="@+id/fifteenth_fiveFive"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/fiveFive"
+            />
+
+        <CheckBox
+            android:id="@+id/fifteenth_ten"
+            style="@style/HeaderTextStyle"
+            android:layout_width="@dimen/radio_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/ten"
             />
 
 
