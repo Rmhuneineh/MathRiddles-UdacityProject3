@@ -280,52 +280,59 @@
             android:layout_height="wrap_content"
             android:text="@string/ninth" />
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/ninth_58"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="ninth58"
-                android:text="58" />
+                android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/ninth_100"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+                <RadioButton
+                    android:id="@+id/ninth_58"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="ninth58"
+                    android:text="58" />
+
+                <RadioButton
+                    android:id="@+id/ninth_100"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="ninth100"
+                    android:text="100" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="ninth100"
-                android:text="100" />
+                android:orientation="horizontal">
 
+                <RadioButton
+                    android:id="@+id/ninth_54"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="ninth54"
+                    android:text="54" />
 
-        </LinearLayout>
+                <RadioButton
+                    android:id="@+id/ninth_46"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="ninth46"
+                    android:text="46" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            </LinearLayout>
 
-            <CheckBox
-                android:id="@+id/ninth_54"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="ninth54"
-                android:text="54" />
+        </RadioGroup>
 
-            <CheckBox
-                android:id="@+id/ninth_46"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="ninth46"
-                android:text="46" />
-
-        </LinearLayout>
 
         <TextView
             style="@style/HeaderTextStyle"
