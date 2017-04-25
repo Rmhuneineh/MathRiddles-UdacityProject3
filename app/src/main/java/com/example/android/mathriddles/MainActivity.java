@@ -3,6 +3,7 @@ package com.example.android.mathriddles;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
@@ -85,8 +86,51 @@ public class MainActivity extends AppCompatActivity {
                 score++;
             }
 
+            CheckBox ans1 = (CheckBox) findViewById(R.id.eleventh_nineThree);
+            CheckBox ans2 = (CheckBox) findViewById(R.id.eleventh_threeOne);
+            CheckBox ans3 = (CheckBox) findViewById(R.id.eleventh_sixOne);
+            CheckBox ans4 = (CheckBox) findViewById(R.id.eleventh_sixTwo);
+            if(ans1.isChecked() && !ans2.isChecked() && !ans3.isChecked() && ans4.isChecked()){
+                score++;
+            }
+
+            ans1 = (CheckBox) findViewById(R.id.twelfth_fifteenTen);
+            ans2 = (CheckBox) findViewById(R.id.twelfth_fourteenFourteen);
+            ans3 = (CheckBox) findViewById(R.id.twelfth_seventeenEleven);
+            ans4 = (CheckBox) findViewById(R.id.twelfth_sixteenTwelve);
+            if(!ans1.isChecked() && ans2.isChecked() && ans3.isChecked() && ans4.isChecked()){
+                score++;
+            }
+
+            ans1 = (CheckBox) findViewById(R.id.thirteenth_oneThree);
+            ans2 = (CheckBox) findViewById(R.id.thirteenth_oneTwo);
+            ans3 = (CheckBox) findViewById(R.id.thirteenth_sevenFive);
+            ans4 = (CheckBox) findViewById(R.id.thirteenth_sevenSix);
+            if(!ans1.isChecked() && ans2.isChecked() && ans3.isChecked() && !ans4.isChecked()){
+                score++;
+            }
+
+            ans1 = (CheckBox) findViewById(R.id.fourteenth_elevenThirty);
+            ans2 = (CheckBox) findViewById(R.id.fourteenth_tenTwenty);
+            ans3 = (CheckBox) findViewById(R.id.fourteenth_thirtyEighty);
+            ans4 = (CheckBox) findViewById(R.id.fourteenth_thirtyNinety);
+            if(!ans1.isChecked() && ans2.isChecked() && ans3.isChecked() && !ans4.isChecked()){
+                score++;
+            }
+
+            ans1 = (CheckBox) findViewById(R.id.fifteenth_fiveFive);
+            ans2 = (CheckBox) findViewById(R.id.fifteenth_sevenTwoOne);
+            ans3 = (CheckBox) findViewById(R.id.fifteenth_sixThreeTwo);
+            ans4 = (CheckBox) findViewById(R.id.fifteenth_ten);
+            if(ans1.isChecked() && ans2.isChecked() && !ans3.isChecked() && ans4.isChecked()){
+                score++;
+            }
+
+
             displayScore(score, name.getText().toString());
         }
+
+
 
     }
 
@@ -106,8 +150,10 @@ public class MainActivity extends AppCompatActivity {
             rating = "Good!";
         } else if (score >= 7 && score <= 9) {
             rating = "Very Good!";
-        } else {
+        } else if (score >= 10 && score <= 14){
             rating = "Excellent!";
+        } else {
+            rating = "GENIUS!";
         }
 
         Toast.makeText(this, name + "\'s Score = " + Integer.toString(score) + ". " + rating, Toast.LENGTH_SHORT).show();
@@ -197,5 +243,50 @@ public class MainActivity extends AppCompatActivity {
 
         radio = (RadioButton) findViewById(R.id.tenth_9);
         radio.setChecked(false);
+
+        CheckBox ans1 = (CheckBox) findViewById(R.id.eleventh_nineThree);
+        CheckBox ans2 = (CheckBox) findViewById(R.id.eleventh_threeOne);
+        CheckBox ans3 = (CheckBox) findViewById(R.id.eleventh_sixOne);
+        CheckBox ans4 = (CheckBox) findViewById(R.id.eleventh_sixTwo);
+        ans1.setChecked(false);
+        ans2.setChecked(false);
+        ans3.setChecked(false);
+        ans4.setChecked(false);
+
+        ans1 = (CheckBox) findViewById(R.id.twelfth_fifteenTen);
+        ans2 = (CheckBox) findViewById(R.id.twelfth_fourteenFourteen);
+        ans3 = (CheckBox) findViewById(R.id.twelfth_seventeenEleven);
+        ans4 = (CheckBox) findViewById(R.id.twelfth_sixteenTwelve);
+        ans1.setChecked(false);
+        ans2.setChecked(false);
+        ans3.setChecked(false);
+        ans4.setChecked(false);
+
+        ans1 = (CheckBox) findViewById(R.id.thirteenth_oneThree);
+        ans2 = (CheckBox) findViewById(R.id.thirteenth_oneTwo);
+        ans3 = (CheckBox) findViewById(R.id.thirteenth_sevenFive);
+        ans4 = (CheckBox) findViewById(R.id.thirteenth_sevenSix);
+        ans1.setChecked(false);
+        ans2.setChecked(false);
+        ans3.setChecked(false);
+        ans4.setChecked(false);
+
+        ans1 = (CheckBox) findViewById(R.id.fourteenth_elevenThirty);
+        ans2 = (CheckBox) findViewById(R.id.fourteenth_tenTwenty);
+        ans3 = (CheckBox) findViewById(R.id.fourteenth_thirtyEighty);
+        ans4 = (CheckBox) findViewById(R.id.fourteenth_thirtyNinety);
+        ans1.setChecked(false);
+        ans2.setChecked(false);
+        ans3.setChecked(false);
+        ans4.setChecked(false);
+
+        ans1 = (CheckBox) findViewById(R.id.fifteenth_fiveFive);
+        ans2 = (CheckBox) findViewById(R.id.fifteenth_sevenTwoOne);
+        ans3 = (CheckBox) findViewById(R.id.fifteenth_sixThreeTwo);
+        ans4 = (CheckBox) findViewById(R.id.fifteenth_ten);
+        ans1.setChecked(false);
+        ans2.setChecked(false);
+        ans3.setChecked(false);
+        ans4.setChecked(false);
     }
 }
