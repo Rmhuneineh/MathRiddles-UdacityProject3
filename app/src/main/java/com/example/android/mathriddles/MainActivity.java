@@ -1,16 +1,12 @@
 package com.example.android.mathriddles;
 
-import android.database.Cursor;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.ScrollView;
+import android.widget.RadioButton;
 import android.widget.Toast;
-
-import static android.R.attr.name;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -65,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
                 score++;
             }
 
-            CheckBox checkBox = (CheckBox) findViewById(R.id.sixth_wednesday);
-            if (checkBox.isChecked()) {
+            RadioButton radioButton = (RadioButton) findViewById(R.id.sixth_wednesday);
+            if (radioButton.isChecked()) {
                 score++;
             }
 

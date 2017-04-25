@@ -98,53 +98,61 @@
             android:layout_height="wrap_content"
             android:text="@string/sixth" />
 
-        <LinearLayout
+        <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/sixth_monday"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="sixthMon"
-                android:text="Monday" />
+                android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/sixth_saturday"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
+                <RadioButton
+                    android:id="@+id/sixth_monday"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="sixthMon"
+                    android:text="Monday" />
+
+                <RadioButton
+                    android:id="@+id/sixth_saturday"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="sixthSat"
+                    android:text="Saturday" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="sixthSat"
-                android:text="Saturday" />
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/sixth_wednesday"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="sixthWed"
+                    android:text="Wednesday" />
+
+                <RadioButton
+                    android:id="@+id/sixth_friday"
+                    style="@style/HeaderTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:onClick="sixthFri"
+                    android:text="Friday" />
 
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <CheckBox
-                android:id="@+id/sixth_wednesday"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="sixthWed"
-                android:text="Wednesday" />
-
-            <CheckBox
-                android:id="@+id/sixth_friday"
-                style="@style/HeaderTextStyle"
-                android:layout_width="150dp"
-                android:layout_height="wrap_content"
-                android:onClick="sixthFri"
-                android:text="Friday" />
+            </LinearLayout>
 
 
-        </LinearLayout>
+
+        </RadioGroup>
 
         <TextView
             style="@style/HeaderTextStyle"
